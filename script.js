@@ -1,3 +1,5 @@
+document.addEventListener('load', alert(`Help Marjan get out of the labyrinth using Arrow Keys.`))
+
 const canvas = document.querySelector('#canvas')
 const ctx = canvas.getContext('2d')
 
@@ -132,11 +134,11 @@ const ctx = canvas.getContext('2d')
 const image = document.querySelector('#source')
 
 const player = {
-    w: 50,
-    h: 70,
+    w: 26,
+    h: 31,
     x: 20,
     y: 200,
-    speed: 9,
+    speed: 1,
     dx: 0,
     dy: 0
 }
